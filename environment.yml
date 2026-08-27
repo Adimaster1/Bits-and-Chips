@@ -1,0 +1,33 @@
+name: timing-rag
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - git
+
+  # Core data processing
+  - numpy
+  - pandas
+  - pyyaml
+
+  # Graph analysis
+  - networkx
+
+  # Database
+  - sqlalchemy
+
+  # Development and testing
+  - pytest
+  - pytest-cov
+  - black
+  - ruff
+
+  # Notebook support
+  - ipykernel
+  - jupyter
+
+  # Environment variables
+  - python-dotenv
