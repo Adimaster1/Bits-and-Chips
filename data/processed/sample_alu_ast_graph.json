@@ -1,0 +1,1461 @@
+{
+  "nodes": [
+    {
+      "id": "ast_0",
+      "node_type": "Source",
+      "attributes": {
+        "name": "",
+        "line": 1
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 0
+    },
+    {
+      "id": "ast_1",
+      "node_type": "Description",
+      "attributes": {
+        "line": 1
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 1
+    },
+    {
+      "id": "ast_2",
+      "node_type": "ModuleDef",
+      "attributes": {
+        "name": "sample_alu",
+        "default_nettype": "wire",
+        "end_lineno": 28,
+        "line": 1
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 2
+    },
+    {
+      "id": "ast_3",
+      "node_type": "Paramlist",
+      "attributes": {
+        "line": 0
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 3
+    },
+    {
+      "id": "ast_4",
+      "node_type": "Portlist",
+      "attributes": {
+        "line": 1
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 3
+    },
+    {
+      "id": "ast_5",
+      "node_type": "Ioport",
+      "attributes": {
+        "line": 2
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 4
+    },
+    {
+      "id": "ast_6",
+      "node_type": "Input",
+      "attributes": {
+        "name": "clk",
+        "width": null,
+        "signed": false,
+        "dimensions": null,
+        "value": null,
+        "line": 2
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_7",
+      "node_type": "Wire",
+      "attributes": {
+        "name": "clk",
+        "width": null,
+        "signed": false,
+        "dimensions": null,
+        "value": null,
+        "line": 2
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_8",
+      "node_type": "Ioport",
+      "attributes": {
+        "line": 3
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 4
+    },
+    {
+      "id": "ast_9",
+      "node_type": "Input",
+      "attributes": {
+        "name": "rst",
+        "width": null,
+        "signed": false,
+        "dimensions": null,
+        "value": null,
+        "line": 3
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_10",
+      "node_type": "Wire",
+      "attributes": {
+        "name": "rst",
+        "width": null,
+        "signed": false,
+        "dimensions": null,
+        "value": null,
+        "line": 3
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_11",
+      "node_type": "Ioport",
+      "attributes": {
+        "line": 4
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 4
+    },
+    {
+      "id": "ast_12",
+      "node_type": "Input",
+      "attributes": {
+        "name": "enable",
+        "width": null,
+        "signed": false,
+        "dimensions": null,
+        "value": null,
+        "line": 4
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_13",
+      "node_type": "Wire",
+      "attributes": {
+        "name": "enable",
+        "width": null,
+        "signed": false,
+        "dimensions": null,
+        "value": null,
+        "line": 4
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_14",
+      "node_type": "Ioport",
+      "attributes": {
+        "line": 5
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 4
+    },
+    {
+      "id": "ast_15",
+      "node_type": "Input",
+      "attributes": {
+        "name": "a",
+        "signed": false,
+        "dimensions": null,
+        "value": null,
+        "line": 5
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_16",
+      "node_type": "Width",
+      "attributes": {
+        "line": 5
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_17",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "7",
+        "line": 5
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 7
+    },
+    {
+      "id": "ast_18",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "0",
+        "line": 5
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 7
+    },
+    {
+      "id": "ast_19",
+      "node_type": "Wire",
+      "attributes": {
+        "name": "a",
+        "signed": false,
+        "dimensions": null,
+        "value": null,
+        "line": 5
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_20",
+      "node_type": "Width",
+      "attributes": {
+        "line": 5
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_21",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "7",
+        "line": 5
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 7
+    },
+    {
+      "id": "ast_22",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "0",
+        "line": 5
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 7
+    },
+    {
+      "id": "ast_23",
+      "node_type": "Ioport",
+      "attributes": {
+        "line": 6
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 4
+    },
+    {
+      "id": "ast_24",
+      "node_type": "Input",
+      "attributes": {
+        "name": "b",
+        "signed": false,
+        "dimensions": null,
+        "value": null,
+        "line": 6
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_25",
+      "node_type": "Width",
+      "attributes": {
+        "line": 6
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_26",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "7",
+        "line": 6
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 7
+    },
+    {
+      "id": "ast_27",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "0",
+        "line": 6
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 7
+    },
+    {
+      "id": "ast_28",
+      "node_type": "Wire",
+      "attributes": {
+        "name": "b",
+        "signed": false,
+        "dimensions": null,
+        "value": null,
+        "line": 6
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_29",
+      "node_type": "Width",
+      "attributes": {
+        "line": 6
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_30",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "7",
+        "line": 6
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 7
+    },
+    {
+      "id": "ast_31",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "0",
+        "line": 6
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 7
+    },
+    {
+      "id": "ast_32",
+      "node_type": "Ioport",
+      "attributes": {
+        "line": 7
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 4
+    },
+    {
+      "id": "ast_33",
+      "node_type": "Output",
+      "attributes": {
+        "name": "result",
+        "signed": false,
+        "dimensions": null,
+        "value": null,
+        "line": 7
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_34",
+      "node_type": "Width",
+      "attributes": {
+        "line": 7
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_35",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "7",
+        "line": 7
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 7
+    },
+    {
+      "id": "ast_36",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "0",
+        "line": 7
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 7
+    },
+    {
+      "id": "ast_37",
+      "node_type": "Reg",
+      "attributes": {
+        "name": "result",
+        "signed": false,
+        "dimensions": null,
+        "value": null,
+        "line": 7
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_38",
+      "node_type": "Width",
+      "attributes": {
+        "line": 7
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_39",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "7",
+        "line": 7
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 7
+    },
+    {
+      "id": "ast_40",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "0",
+        "line": 7
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 7
+    },
+    {
+      "id": "ast_41",
+      "node_type": "Decl",
+      "attributes": {
+        "line": 10
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 3
+    },
+    {
+      "id": "ast_42",
+      "node_type": "Wire",
+      "attributes": {
+        "name": "sum",
+        "signed": false,
+        "dimensions": null,
+        "value": null,
+        "line": 10
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 4
+    },
+    {
+      "id": "ast_43",
+      "node_type": "Width",
+      "attributes": {
+        "line": 10
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_44",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "7",
+        "line": 10
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_45",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "0",
+        "line": 10
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_46",
+      "node_type": "Decl",
+      "attributes": {
+        "line": 11
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 3
+    },
+    {
+      "id": "ast_47",
+      "node_type": "Wire",
+      "attributes": {
+        "name": "diff",
+        "signed": false,
+        "dimensions": null,
+        "value": null,
+        "line": 11
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 4
+    },
+    {
+      "id": "ast_48",
+      "node_type": "Width",
+      "attributes": {
+        "line": 11
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_49",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "7",
+        "line": 11
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_50",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "0",
+        "line": 11
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_51",
+      "node_type": "Assign",
+      "attributes": {
+        "ldelay": null,
+        "rdelay": null,
+        "line": 13
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 3
+    },
+    {
+      "id": "ast_52",
+      "node_type": "Lvalue",
+      "attributes": {
+        "line": 13
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 4
+    },
+    {
+      "id": "ast_53",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "sum",
+        "scope": null,
+        "line": 13
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_54",
+      "node_type": "Rvalue",
+      "attributes": {
+        "line": 13
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 4
+    },
+    {
+      "id": "ast_55",
+      "node_type": "Plus",
+      "attributes": {
+        "line": 13
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_56",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "a",
+        "scope": null,
+        "line": 13
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_57",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "b",
+        "scope": null,
+        "line": 13
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_58",
+      "node_type": "Assign",
+      "attributes": {
+        "ldelay": null,
+        "rdelay": null,
+        "line": 14
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 3
+    },
+    {
+      "id": "ast_59",
+      "node_type": "Lvalue",
+      "attributes": {
+        "line": 14
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 4
+    },
+    {
+      "id": "ast_60",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "diff",
+        "scope": null,
+        "line": 14
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_61",
+      "node_type": "Rvalue",
+      "attributes": {
+        "line": 14
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 4
+    },
+    {
+      "id": "ast_62",
+      "node_type": "Minus",
+      "attributes": {
+        "line": 14
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_63",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "a",
+        "scope": null,
+        "line": 14
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_64",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "b",
+        "scope": null,
+        "line": 14
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_65",
+      "node_type": "Always",
+      "attributes": {
+        "line": 16
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 3
+    },
+    {
+      "id": "ast_66",
+      "node_type": "SensList",
+      "attributes": {
+        "line": 16
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 4
+    },
+    {
+      "id": "ast_67",
+      "node_type": "Sens",
+      "attributes": {
+        "type": "posedge",
+        "line": 16
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_68",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "clk",
+        "scope": null,
+        "line": 16
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_69",
+      "node_type": "Block",
+      "attributes": {
+        "scope": null,
+        "line": 16
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 4
+    },
+    {
+      "id": "ast_70",
+      "node_type": "IfStatement",
+      "attributes": {
+        "line": 17
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 5
+    },
+    {
+      "id": "ast_71",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "rst",
+        "scope": null,
+        "line": 17
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_72",
+      "node_type": "Block",
+      "attributes": {
+        "scope": null,
+        "line": 17
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_73",
+      "node_type": "NonblockingSubstitution",
+      "attributes": {
+        "ldelay": null,
+        "rdelay": null,
+        "line": 18
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 7
+    },
+    {
+      "id": "ast_74",
+      "node_type": "Lvalue",
+      "attributes": {
+        "line": 18
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 8
+    },
+    {
+      "id": "ast_75",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "result",
+        "scope": null,
+        "line": 18
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 9
+    },
+    {
+      "id": "ast_76",
+      "node_type": "Rvalue",
+      "attributes": {
+        "line": 18
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 8
+    },
+    {
+      "id": "ast_77",
+      "node_type": "IntConst",
+      "attributes": {
+        "value": "8'd0",
+        "line": 18
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 9
+    },
+    {
+      "id": "ast_78",
+      "node_type": "IfStatement",
+      "attributes": {
+        "false_statement": null,
+        "line": 20
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 6
+    },
+    {
+      "id": "ast_79",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "enable",
+        "scope": null,
+        "line": 20
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 7
+    },
+    {
+      "id": "ast_80",
+      "node_type": "Block",
+      "attributes": {
+        "scope": null,
+        "line": 20
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 7
+    },
+    {
+      "id": "ast_81",
+      "node_type": "IfStatement",
+      "attributes": {
+        "line": 21
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 8
+    },
+    {
+      "id": "ast_82",
+      "node_type": "GreaterThan",
+      "attributes": {
+        "line": 21
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 9
+    },
+    {
+      "id": "ast_83",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "a",
+        "scope": null,
+        "line": 21
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 10
+    },
+    {
+      "id": "ast_84",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "b",
+        "scope": null,
+        "line": 21
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 10
+    },
+    {
+      "id": "ast_85",
+      "node_type": "NonblockingSubstitution",
+      "attributes": {
+        "ldelay": null,
+        "rdelay": null,
+        "line": 22
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 9
+    },
+    {
+      "id": "ast_86",
+      "node_type": "Lvalue",
+      "attributes": {
+        "line": 22
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 10
+    },
+    {
+      "id": "ast_87",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "result",
+        "scope": null,
+        "line": 22
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 11
+    },
+    {
+      "id": "ast_88",
+      "node_type": "Rvalue",
+      "attributes": {
+        "line": 22
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 10
+    },
+    {
+      "id": "ast_89",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "sum",
+        "scope": null,
+        "line": 22
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 11
+    },
+    {
+      "id": "ast_90",
+      "node_type": "NonblockingSubstitution",
+      "attributes": {
+        "ldelay": null,
+        "rdelay": null,
+        "line": 24
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 9
+    },
+    {
+      "id": "ast_91",
+      "node_type": "Lvalue",
+      "attributes": {
+        "line": 24
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 10
+    },
+    {
+      "id": "ast_92",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "result",
+        "scope": null,
+        "line": 24
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 11
+    },
+    {
+      "id": "ast_93",
+      "node_type": "Rvalue",
+      "attributes": {
+        "line": 24
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 10
+    },
+    {
+      "id": "ast_94",
+      "node_type": "Identifier",
+      "attributes": {
+        "name": "diff",
+        "scope": null,
+        "line": 24
+      },
+      "source_file": "/mnt/d/Acads/Nebula_Hackathon/timing_rag/data/rtl/sample_alu.v",
+      "depth": 11
+    }
+  ],
+  "edges": [
+    {
+      "source": "ast_0",
+      "target": "ast_1",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_1",
+      "target": "ast_2",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_2",
+      "target": "ast_3",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_2",
+      "target": "ast_4",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_2",
+      "target": "ast_41",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_2",
+      "target": "ast_46",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_2",
+      "target": "ast_51",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_2",
+      "target": "ast_58",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_2",
+      "target": "ast_65",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_4",
+      "target": "ast_5",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_4",
+      "target": "ast_8",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_4",
+      "target": "ast_11",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_4",
+      "target": "ast_14",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_4",
+      "target": "ast_23",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_4",
+      "target": "ast_32",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_5",
+      "target": "ast_6",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_5",
+      "target": "ast_7",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_8",
+      "target": "ast_9",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_8",
+      "target": "ast_10",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_11",
+      "target": "ast_12",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_11",
+      "target": "ast_13",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_14",
+      "target": "ast_15",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_14",
+      "target": "ast_19",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_15",
+      "target": "ast_16",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_16",
+      "target": "ast_17",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_16",
+      "target": "ast_18",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_19",
+      "target": "ast_20",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_20",
+      "target": "ast_21",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_20",
+      "target": "ast_22",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_23",
+      "target": "ast_24",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_23",
+      "target": "ast_28",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_24",
+      "target": "ast_25",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_25",
+      "target": "ast_26",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_25",
+      "target": "ast_27",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_28",
+      "target": "ast_29",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_29",
+      "target": "ast_30",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_29",
+      "target": "ast_31",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_32",
+      "target": "ast_33",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_32",
+      "target": "ast_37",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_33",
+      "target": "ast_34",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_34",
+      "target": "ast_35",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_34",
+      "target": "ast_36",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_37",
+      "target": "ast_38",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_38",
+      "target": "ast_39",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_38",
+      "target": "ast_40",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_41",
+      "target": "ast_42",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_42",
+      "target": "ast_43",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_43",
+      "target": "ast_44",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_43",
+      "target": "ast_45",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_46",
+      "target": "ast_47",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_47",
+      "target": "ast_48",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_48",
+      "target": "ast_49",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_48",
+      "target": "ast_50",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_51",
+      "target": "ast_52",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_51",
+      "target": "ast_54",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_52",
+      "target": "ast_53",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_54",
+      "target": "ast_55",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_55",
+      "target": "ast_56",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_55",
+      "target": "ast_57",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_58",
+      "target": "ast_59",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_58",
+      "target": "ast_61",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_59",
+      "target": "ast_60",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_61",
+      "target": "ast_62",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_62",
+      "target": "ast_63",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_62",
+      "target": "ast_64",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_65",
+      "target": "ast_66",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_65",
+      "target": "ast_69",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_66",
+      "target": "ast_67",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_67",
+      "target": "ast_68",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_69",
+      "target": "ast_70",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_70",
+      "target": "ast_71",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_70",
+      "target": "ast_72",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_70",
+      "target": "ast_78",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_72",
+      "target": "ast_73",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_73",
+      "target": "ast_74",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_73",
+      "target": "ast_76",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_74",
+      "target": "ast_75",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_76",
+      "target": "ast_77",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_78",
+      "target": "ast_79",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_78",
+      "target": "ast_80",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_80",
+      "target": "ast_81",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_81",
+      "target": "ast_82",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_81",
+      "target": "ast_85",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_81",
+      "target": "ast_90",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_82",
+      "target": "ast_83",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_82",
+      "target": "ast_84",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_85",
+      "target": "ast_86",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_85",
+      "target": "ast_88",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_86",
+      "target": "ast_87",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_88",
+      "target": "ast_89",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_90",
+      "target": "ast_91",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_90",
+      "target": "ast_93",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_91",
+      "target": "ast_92",
+      "relationship": "parent_child"
+    },
+    {
+      "source": "ast_93",
+      "target": "ast_94",
+      "relationship": "parent_child"
+    }
+  ]
+}
