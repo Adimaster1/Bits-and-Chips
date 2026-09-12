@@ -1,0 +1,11 @@
+[gold]
+read_verilog rtl/unoptimized.v
+prep -top heavy_calculator
+
+[gate]
+read_verilog rtl/temp.v
+prep -top heavy_calculator
+
+[strategy simple]
+use sat
+depth 10

@@ -1,0 +1,9 @@
+read_verilog rtl/unoptimized.v
+synth -top heavy_calculator
+
+# Map directly to the real university library
+dfflibmap -liberty sta/osu018_stdcells.lib
+abc -liberty sta/osu018_stdcells.lib
+clean
+
+write_verilog sta/synth_netlist.v
