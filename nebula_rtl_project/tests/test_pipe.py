@@ -97,7 +97,9 @@ def main():
     if not success:
         exit()
 
-    shutil.rmtree("equivalence_check")
+    if (os.path.exists("equivalence_check")):
+        shutil.rmtree("equivalence_check")
+
     success, eqy_output = validate_equivalence(
     original_file=str(VERILOG_FILE),
     optimized_file=str(TEMP_PATH),
